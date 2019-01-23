@@ -1,0 +1,75 @@
+body {
+	background-image: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7)), url(../img/management.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.container {
+	margin: auto;
+    margin-top: 50px;
+    min-width: 400px;
+    width: 1400px;
+    height: auto;
+    display: flex;
+}
+
+.system-container {
+	position: relative;	
+	border: 1px solid #AAA;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+}
+
+.center {
+	text-align: center;
+}
+
+.scale {
+	width: 100%;
+}
+
+.squares {
+	width: 25%;
+    border-right: 1px solid #cdcdcd;
+    padding-bottom: 10px;
+}
+
+.header-system {
+	background-color: rgba(202, 206, 213, 0.8);
+    border-right: 1px solid #BDA167;
+    padding: 8px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #1c1b1ac7;;
+    font-weight: 500;
+}
+
+.inside {
+	margin: 10px 5% 0px;
+    border: 1px solid #aaa;
+    width: 80%;
+    padding: 7px 15px 10px;
+    border-radius: 5px;
+}
+
+.bar {
+	padding-top: 10px;
+    border-top: 1px dashed #cdcdcd;
+    margin-top: 5px;
+}
+
+.add {
+	width: 40px;
+    height: 40px;
+    background: #df5800c7;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    border-radius: 6px;
+    border: 0;
+    margin-left: 40%;
+}
+
+
+
+
